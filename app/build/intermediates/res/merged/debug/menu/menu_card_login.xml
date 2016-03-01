@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.quaere.deepak.quaereshinecity.Activity.CardLogin">
+
+
+
+    <item android:id="@+id/action_settings" android:title="Change Theme"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+       <!-- <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" >-->
+            <item android:id="@+id/redtheme"
+                android:title="Red"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                />
+    <!--   HTMLCode:showAsAction="ifRoom|withText"-->
+            <item android:id="@+id/bluetheme"
+                android:title="Blue"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+
+            <item android:id="@+id/greentheme"
+                android:title="Green"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+
+            <item android:id="@+id/defaulttheme"
+                android:title="Default"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+    <!--   </menu>
+    </item>-->
+    <item android:id="@+id/logout" android:title="LOGOUT"
+
+        android:orderInCategory="101" app:showAsAction="always" />
+
+</menu>
+<!-- From: file:/F:/AndroidProject/QuaereShineCity/app/src/main/res/menu/menu_card_login.xml -->

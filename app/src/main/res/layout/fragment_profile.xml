@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.quaere.deepak.quaereshinecity.Fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+
+            android:fontFamily="cursive"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privilage Card No." />
+
+        <TextView
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/txt_pri_cardno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privilage Card No." />
+
+        <TextView
+            android:fontFamily="cursive"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Name" />
+        <TextView
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/txt_displayname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Name" />
+
+        <TextView
+            android:fontFamily="cursive"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Rs"/>
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/txt_totalamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount" />
+        </LinearLayout>
+        <TextView
+            android:fontFamily="cursive"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redeem Account" />
+        <TextView
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/txt_redeemac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redeem Account" />
+        <TextView
+            android:fontFamily="cursive"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance" />
+        <TextView
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/txt_balaance_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance" />
+    </LinearLayout>
+
+</FrameLayout>

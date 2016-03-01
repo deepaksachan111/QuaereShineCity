@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.quaere.deepak.quaereshinecity.RedeemProceedActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privilege Card No."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/txt_privi"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="privilege card no."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invoice No."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/txt_invoice"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="invoice no."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/txt_amount"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="amount"
+            android:textSize="20dp" />
+
+        <EditText
+            android:fontFamily=" sans-serif-condensed-light"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:ems="10"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:id="@+id/edt_passcode"
+            android:inputType="numberPassword"
+            android:background="@drawable/recta_edittext"
+            android:hint="Enter Passcode"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+
+            android:id="@+id/bt_proceed"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed"/>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/F:/AndroidProject/QuaereShineCity/app/src/main/res/layout/activity_redeem_proceed.xml -->

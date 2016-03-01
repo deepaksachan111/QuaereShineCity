@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quaere.deepak.quaereshinecity.LoginFragment">
+
+<!--    <TextView
+        android:id="@+id/balance_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="right"
+        android:text="test balance"
+        android:textStyle="bold" />-->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo" />
+
+                <EditText
+                    android:fontFamily=" sans-serif-condensed-light"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:ems="10"
+                    android:typeface="monospace"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/edt_login"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/recta_edittext"
+                    android:hint="Vender Login ID/Card No" />
+
+                <EditText
+                    android:fontFamily=" sans-serif-condensed-light"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:ems="10"
+                    android:inputType="textWebPassword"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/edt_password"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/recta_edittext"
+                    android:hint="Password" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_shape"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_below="@id/linear1"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Login" />
+
+            <TextView
+                android:id="@+id/txt_forget"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/login_btn"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forget Password ?" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="#00000000"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_height="fill_parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

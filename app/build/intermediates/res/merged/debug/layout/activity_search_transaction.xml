@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:padding="10dp"
+    tools:context="com.quaere.deepak.quaereshinecity.SearchTransactionActivity">
+<EditText
+    android:textSize="16dp"
+    android:maxLength="16"
+    android:padding="10dp"
+    android:hint="Privilege Card No. "
+    android:layout_marginTop="20dp"
+    android:background="@drawable/recta_edittext"
+    android:ems="10"
+    android:imeOptions="actionNext"
+    android:inputType="number"
+    android:id="@+id/edt_search_privcrad"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_below="@+id/edt_search_privcrad"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:textSize="16dp"
+        android:layout_below="@id/txt_or"
+        android:padding="10dp"
+        android:hint="Invoice No."
+        android:layout_marginTop="20dp"
+        android:background="@drawable/recta_edittext"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/edt_search_invoice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_searchbtton"
+        android:layout_marginTop="20dp"
+        android:text="Search"
+        android:layout_below="@+id/edt_search_invoice"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+<!-- From: file:/F:/AndroidProject/QuaereShineCity/app/src/main/res/layout/activity_search_transaction.xml -->

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.quaere.deepak.quaereshinecity.Fragment.TransactionHistoryData">
+
+    <ListView
+        android:id="@+id/listview_transactionhistorydata"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:smoothScrollbar="true"
+        android:scrollingCache="false"
+        android:animationCache="false">
+
+    </ListView>
+
+</FrameLayout>
+<!-- From: file:/F:/AndroidProject/QuaereShineCity/app/src/main/res/layout/fragment_transaction_history_data.xml -->

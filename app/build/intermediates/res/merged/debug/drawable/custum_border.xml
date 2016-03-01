@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="3dp"/>
+    <padding android:left="6dp" android:right="6dp" android:top="6dp" android:bottom="6dp"/>
+    <solid android:color="#D368B5"/>
+    <stroke android:width="1dp"
+        android:color="#C8C8C8"/>
+    <gradient
+        android:startColor="#FFFFFF"
+        android:endColor="#FEFCFC"
+        android:type="linear"
+        android:angle="270"/>
+</shape><!-- From: file:/F:/AndroidProject/QuaereShineCity/app/src/main/res/drawable/custum_border.xml -->

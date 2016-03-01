@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paramrycolor">#E6F8E0</color>
+    <color name="paramrycolordrak">#E6F8E0</color>
+    <color name="colorPrimary">#F50057</color>
+    <color name="background_color">#FFFFE6</color>
+    <color name="home_background">#000000</color>
+    <color name="text_color">#FFFAF0</color>
+    <color name="loginBackgroundColor">#DAA520</color>
+    <color name="exam_page_background_color">#F7F8F8</color>
+    <color name="black">#ff000000</color>
+    <color name="orange">#FFFAA51C</color>
+    <color name="gray">#FF616161</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_font">#FF6A6A6A</color>
+    <color name="gray_filter_background">#D3D3D3</color>
+    <color name="profile_image_color">#D3D3D3</color>
+    <color name="apricot">#FDE4BA</color>
+    <color name="light_gray">#F7F7F7</color>
+    <color name="green">#009900</color>
+    <color name="ornge2">#FF6600</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+
+    <color name="textColor">#FFF</color>
+    <color name="textFieldColor">#000</color>
+    <color name="textShadow">#FFF</color>
+    <color name="listViewBg">#DADFEE</color>
+
+    <color name="sendLightColor">#8897BF</color>
+    <color name="sendMeduimColor">#5D6CA5</color>
+    <color name="sendDarkColor">#515F9F</color>
+
+    <color name="barDarkColor">#CECECE</color>
+    <color name="barMeduimColor">#DFDEE0</color>
+    <color name="barLightColor">#F2F2F2</color>
+    <color name="purple">#88236c</color>
+    <color name="magenta">#04B4AE</color>
+
+
+
+    <color name="list_item_title">#000</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_background_pressed">#D3D3D3</color>
+    <color name="list_divider">#c5c4c4</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+</resources>

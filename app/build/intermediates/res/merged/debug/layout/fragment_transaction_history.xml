@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quaere.deepak.quaereshinecity.Fragment.TransactionHistory">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <EditText
+        android:focusableInTouchMode="false"
+        android:id="@+id/edt_trans_hist_fromdate"
+        android:padding="10dp"
+        android:background="@drawable/recta_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:focusableInTouchMode="false"
+        android:id="@+id/edttrans_hist_todate"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/recta_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_trans_hist_datewise_seach"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+</FrameLayout>
+<!-- From: file:/F:/AndroidProject/QuaereShineCity/app/src/main/res/layout/fragment_transaction_history.xml -->

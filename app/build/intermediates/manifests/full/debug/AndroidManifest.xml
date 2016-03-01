@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quaere.deepak.quaereshinecity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.PagerslidingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_pagersliding" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.UserProfileActivity"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.RedeemProceedActivity"
+            android:label="@string/title_activity_redeem_proceed" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.ForgetPasswordActivity"
+            android:label="@string/title_activity_forget_password" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.OTPPasswordChangeActivity"
+            android:label="@string/title_activity_otppassword_change" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.RedeemSuccessActivity"
+            android:label="@string/title_activity_redeem_success" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.ViewStatementActivity"
+            android:label="@string/title_activity_view_statement" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.DebitTransactionActivity"
+            android:label="@string/title_activity_debit_transaction" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.DatewiseTransactionActivity"
+            android:label="@string/title_activity_datewise_transaction" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.DatewiseTransactionsShowDataActivity"
+            android:label="@string/title_activity_datewise_transactions_show_data" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.SearchTransactionActivity"
+            android:label="@string/title_activity_search_transaction" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.SearchTransactionDataActivity"
+            android:label="@string/title_activity_search_transaction_data" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.TodayTransactionActivity"
+            android:label="@string/title_activity_today_taransaction" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.CreditTransactionActivity"
+            android:label="@string/title_activity_credit_transaction" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.BankDetailActivity"
+            android:label="@string/title_activity_bank_detail" >
+        </activity>
+        <activity
+            android:name="com.quaere.deepak.quaereshinecity.Activity.CardLogin"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_card_login" >
+        </activity>
+    </application>
+
+</manifest>

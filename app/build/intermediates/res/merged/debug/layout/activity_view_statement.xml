@@ -1,0 +1,6 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+    android:name="com.quaere.deepak.quaereshinecity.StatementFragment"
+    tools:layout="@layout/fragment_statement" android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<!-- From: file:/F:/AndroidProject/QuaereShineCity/app/src/main/res/layout/activity_view_statement.xml -->
